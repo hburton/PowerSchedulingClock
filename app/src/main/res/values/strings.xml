@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PowerSchedulingClock</string>
+    <string name="app_name">Power Scheduling Clock</string>
+    <string name="hour_ending_prefix">HE</string>
+    <string name="hour_ending">01</string>
 </resources>

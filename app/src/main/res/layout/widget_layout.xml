@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:orientation="horizontal"
+    android:background="#96000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hour_ending_prefix"
+        android:id="@+id/hourEndingPrefix"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/hourEndingValue"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:text="@string/hour_ending"
+        android:layout_alignTop="@+id/utcHour"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/hour_ending_prefix_dimen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UTC Time"
+        android:id="@+id/utcTimeHeader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="hh"
+        android:id="@+id/utcHour"
+        android:layout_alignTop="@+id/utcMin"
+        android:layout_toStartOf="@+id/timeDivider"
+        android:textSize="@dimen/hour_ending_prefix_dimen"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="mm"
+        android:id="@+id/utcMin"
+        android:layout_alignTop="@+id/hourEndingUtcValue"
+        android:layout_toEndOf="@+id/timeDivider"
+        android:textSize="@dimen/hour_ending_prefix_dimen"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HE-UTC"
+        android:id="@+id/hourEndingUtcHeader"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hour_ending"
+        android:id="@+id/hourEndingUtcValue"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/hour_ending_prefix_dimen"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=":"
+        android:id="@+id/timeDivider"
+        android:layout_alignTop="@+id/utcHour"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/hour_ending_prefix_dimen" />
+
+    <!--android:text="@string/hour_ending" -->
+
+</RelativeLayout>
