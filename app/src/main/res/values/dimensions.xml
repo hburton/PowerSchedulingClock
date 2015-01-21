@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="hour_ending_prefix_dimen">40dp</dimen>
+    <dimen name="hour_ending_dimen">25dp</dimen>
+    <dimen name="hour_ending_header_dimen">20dp</dimen>
+    <dimen name="utc_time_dimen">72dp</dimen>
 </resources>
