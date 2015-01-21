@@ -6,7 +6,7 @@
 </LinearLayout>-->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="360dp"
+    android:layout_width="365dp"
     android:layout_height="125dp"
     android:orientation="horizontal">
 
@@ -32,7 +32,12 @@
         android:layout_below="@+id/hourEndingHeader"
         android:layout_alignLeft="@+id/hourEndingHeader"
         android:layout_alignParentRight="false"
-        android:paddingRight="5dp" />
+        android:paddingRight="5dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +51,12 @@
         android:layout_alignParentEnd="false"
         android:paddingRight="20dp"
         android:textSize="@dimen/hour_ending_header_dimen"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +67,12 @@
         android:text="@string/hour_ending"
         android:textSize="@dimen/hour_ending_dimen"
         android:layout_below="@+id/hourEndingLocalValue"
-        android:layout_alignStart="@+id/hourEndingLocalValue" />
+        android:layout_alignStart="@+id/hourEndingLocalValue"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,7 +82,12 @@
         android:id="@+id/timeZoneLocal"
         android:layout_toEndOf="@+id/hourEndingLocalValue"
         android:layout_alignBottom="@+id/hourEndingLocalValue"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,7 +97,12 @@
         android:id="@+id/timeZoneUtc"
         android:layout_alignBottom="@+id/hourEndingUtcValue"
         android:layout_alignStart="@+id/timeZoneLocal"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -91,7 +116,12 @@
         android:paddingTop="5dp"
         android:paddingLeft="20dp"
         android:layout_alignParentBottom="true"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -103,7 +133,12 @@
         android:layout_alignParentTop="false"
         android:layout_toRightOf="@+id/clockDivider"
         android:layout_alignBottom="@+id/clockHour"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -114,7 +149,12 @@
         android:textSize="@dimen/utc_time_dimen"
         android:layout_toRightOf="@+id/clockHour"
         android:layout_alignBottom="@+id/clockHour"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -130,7 +170,12 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentLeft="true"
         android:paddingLeft="20dp"
-        android:layout_alignBottom="@+id/hourEndingHeader" />
+        android:layout_alignBottom="@+id/hourEndingHeader"
+        android:shadowColor="#64000000"
+        android:singleLine="false"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
 
     <!--android:text="@string/hour_ending" -->
 
